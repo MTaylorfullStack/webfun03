@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        h1{
+            background-color: green;
+            padding: 15px;
+            margin-left: 100px;
+            width: 275px;
+        }
+        li{
+            display: inline-block;
+        }
+        .first_item{
+            margin-left: 80px;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            margin-left: 120px;
+            display: block;
+        }
+        a{
+            margin-left: 135px;
+        }
+        form{
+            margin-left: 135px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Happy St Patty's!</h1>
+
+    <ul>
+        <li class='first_item'>MacGruger's</li>
+        <li>McCarthey's</li>
+        <li>OMalley's</li>
+    </ul>
+
+    <ol>
+        <li class='first_item'>MacGruger's</li>
+        <li>McCarthey's</li>
+        <li>OMalley's</li>
+    </ol>
+
+    <img src="static/images/dojo.jpg" alt="a nice image of a dojo">
+    <a href="http://www.amazon.com">Amazon</a>
+
+    <form action="/create_user">
+        Name: <input type="text" name="name"><br>
+        Email: <input type="text" name="email"><br>
+        Password: <input type="password" name="password"><br>
+        Birthday: <input type="date" name="birthday"><br>
+        Profile Pic: <input type="file" name="profile"><br>
+        <input type="submit" value="Create User"><br>
+    </form>
+
+</body>
+
+</html>
