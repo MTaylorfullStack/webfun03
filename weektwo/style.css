@@ -1,0 +1,46 @@
+#wrapper {
+    background-image: linear-gradient(to bottom right, red, #f06424);
+    font-family: sans-serif;
+    width: 950px;
+}
+
+#header {
+    margin-left: 55px;
+}
+
+#header h1 {
+    margin-right: 355px;
+}
+
+.subhead {
+    display: inline-block;
+    vertical-align: top;
+}
+
+li {
+    margin: 10px;
+    font-size: 11pt;
+}
+
+#synopsis {
+    display: block;
+    background-color: black;
+    color: white;
+    width: 250px;
+    margin-left: 300px;
+    padding: 50px;
+    font-size: 16pt;
+}
+
+.movie {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    margin: 25px;
+}
+
+.poster {
+    width: 200px;
+    height: 250px;
+}
