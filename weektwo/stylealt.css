@@ -2,32 +2,35 @@
     background-image: linear-gradient(to bottom right, red, #f06424);
     font-family: sans-serif;
     width: 950px;
-    margin: 0px auto;
 }
 
 #header {
     margin-left: 55px;
 }
-    #header h1 {
-        margin-right: 460px;
-    }
+
+#header h1 {
+    margin-right: 355px;
+}
 
 .subhead {
     display: inline-block;
-    vertical-align: top;
 }
-    .subhead a{
-        color: black;
-        margin: 25px;
-    }
+
+li {
+    margin: 10px;
+    font-size: 11pt;
+}
+
+li a {
+    color: black;
+}
 
 #synopsis {
-    text-align: center;
     display: block;
     background-color: black;
     color: white;
-    width: 600px;
-    margin-left: 130px;
+    width: 250px;
+    margin-left: 300px;
     padding: 50px;
     font-size: 16pt;
 }
@@ -37,7 +40,7 @@
     background-color: black;
     color: white;
     padding: 25px;
-    margin: 30px;
+    margin: 25px;
 }
 
     .movie h3 {
