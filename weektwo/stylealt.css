@@ -1,6 +1,5 @@
 #wrapper {
     background-image: linear-gradient(to bottom right, red, #f06424);
-    font-family: sans-serif;
     width: 950px;
 }
 
@@ -14,6 +13,7 @@
 
 .subhead {
     display: inline-block;
+    vertical-align: top;
 }
 
 li {
