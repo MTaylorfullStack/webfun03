@@ -1,0 +1,31 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+
+#wrapper {
+    padding: 25px;
+    background-color: black;
+    width: 950px;
+    margin: 0px auto;
+    min-height: 600px;
+}
+
+#head {
+    margin: 25px;
+}
+
+h1 {
+    display: inline-block;
+    width: 300px;
+}
+
+button {
+    display: inline-block;
+    width: 50px;
+    margin: 25px;
+}
+
+#cards {
+    margin-left: 300px;
+}
